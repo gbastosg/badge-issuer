@@ -1,0 +1,12 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "BadgeClass",
+  "id": "https://yourdomain.com/badgeclass.json",
+  "name": "Awesome Badge",
+  "description": "Awarded for doing something awesome.",
+  "image": "https://yourdomain.com/images/awesomebadge.png",
+  "criteria": {
+    "narrative": "You earned this badge by doing something amazing!"
+  },
+  "issuer": "https://yourdomain.com/issuer.json"
+}

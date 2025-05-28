@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Issuer",
+  "id": "https://yourdomain.com/issuer.json",
+  "name": "Your Name or School",
+  "url": "https://yourdomain.com",
+  "email": "you@example.com"
+}

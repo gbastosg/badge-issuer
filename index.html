@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Badge Issuer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Digital Badge Issuer</h1>
+  <form id="badgeForm">
+    <label>Email:
+      <input type="email" id="email" required>
+    </label><br>
+    <label>Name:
+      <input type="text" id="name" required>
+    </label><br>
+    <button type="submit">Generate Badge</button>
+  </form>
+  <pre id="output"></pre>
+
+  <!-- CryptoJS library for hashing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

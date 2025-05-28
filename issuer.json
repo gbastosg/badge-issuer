@@ -1,8 +1,8 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Issuer",
-  "id": "https://yourdomain.com/issuer.json",
+  "id": "https://gbastosg.github.io/badge-issuer/issuer.json",
   "name": "Your Name or School",
-  "url": "https://yourdomain.com",
+  "url": "https://gbastosg.github.io",
   "email": "you@example.com"
 }

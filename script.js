@@ -11,19 +11,19 @@ document.getElementById("badgeForm").addEventListener("submit", function (e) {
   const badge = {
     "@context": "https://w3id.org/openbadges/v2",
     type: "Assertion",
-    id: `https://yourdomain.com/assertions/${Date.now()}`,
+    id: `https://gbastosg.github.io/badge-issuer/${Date.now()}`,
     recipient: {
       type: "email",
       hashed: true,
       salt: salt,
       identity: identity
     },
-    badge: "https://yourdomain.com/badgeclass.json",
+    badge: "https://gbastosg.github.io/badge-issuer/badgeclass.json",
     verification: {
       type: "HostedBadge"
     },
     issuedOn: new Date().toISOString(),
-    evidence: `https://yourdomain.com/evidence/${Date.now()}`
+    evidence: `https://gbastosg.github.io/badge-issuer/${Date.now()}`
   };
 
   document.getElementById("output").textContent = JSON.stringify(badge, null, 2);

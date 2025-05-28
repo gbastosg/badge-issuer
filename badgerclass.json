@@ -1,12 +1,12 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://yourdomain.com/badgeclass.json",
-  "name": "Awesome Badge",
-  "description": "Awarded for doing something awesome.",
-  "image": "https://yourdomain.com/images/awesomebadge.png",
+  "id": "https://gbastosg.github.io/badge-issuer/badgeclass.json",
+  "name": "Certified Badge",
+  "description": "Awarded for doing something awesome that now has been verified and I can prove it by creating a unique token that is attached to this badge and you can check its reliability in the website.",
+  "image": "ttps://gbastosg.github.io/badge-issuer/images/awesomebadge.png",
   "criteria": {
     "narrative": "You earned this badge by doing something amazing!"
   },
-  "issuer": "https://yourdomain.com/issuer.json"
+  "issuer": "https://gbastosg.github.io/badge-issuer/issuer.json"
 }

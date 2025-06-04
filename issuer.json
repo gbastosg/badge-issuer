@@ -2,7 +2,7 @@
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Issuer",
   "id": "https://gbastosg.github.io/badge-issuer/issuer.json",
-  "name": "Your Name or School",
-  "url": "https://gbastosg.github.io",
-  "email": "you@example.com"
+  "name": "GB Learning Hub",
+  "url": "https://gbastosg.github.io/badge-issuer/"
+  "email": "gimbgx@gmail.com"
 }
